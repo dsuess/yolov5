@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "yolov5"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Suess <daniel@dsuess.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+torch = "^1.6.0"
+opencv-python = "^4.4.0"
+matplotlib = "^3.3.1"
+onnx = "^1.7.0"
+torchvision = "^0.7.0"
+pyyaml = "^5.3.1"
+scipy = "^1.5.2"
+tqdm = "^4.48.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
